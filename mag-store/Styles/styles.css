@@ -1,0 +1,325 @@
+.navigation-bar {
+ background-color: #000000;
+ height: 45px;
+ width: 100%;
+
+ position: fixed;
+ z-index: 111;
+ 
+}
+
+.logo{
+float: left;
+margin-top: 12px;
+margin-left: 20px;
+margin-bottom: 10px;
+width: 30%;
+
+}
+#gd_tot{
+	float: right;
+	font-weight: bold;
+
+}
+.logo img{
+width: 150px;
+height: 20px;	
+}
+#cart1{
+width: 20%;
+float: right;
+margin-left: 10px;
+margin-top: 8px;
+margin-bottom: 10px;
+margin-right: 5px;
+font-size: 13px;
+cursor: pointer;
+}
+.p1{
+	display: inline;
+	
+}
+.modeldiv{
+	padding: 20px;
+	    background: rgb(175, 190, 197);
+    margin: 10px;
+}
+
+.modelimg{
+	border-radius: 5px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+input{
+	width:140px;
+	border-radius: 6px;
+	margin: 20px;
+}
+.payment_model{
+	padding-top: 150px;
+}
+
+#tot_item{
+	font-size: 15px;
+	padding: 5px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.84);
+    margin: 0px 10px;
+    color: black;
+    border-radius: 5px;
+    display: none;
+
+}
+
+.modelh3{
+	display: inline-block;
+	font-weight: bold;
+	float: right;
+	margin: 10px;
+	padding: 20px;
+}
+.quant{
+	background : black;
+	padding: 15px;
+}
+
+.banner{
+
+color: #0D2158;
+font-family: arial;
+height: 300px;
+width: 100%;
+background-image: url("../Assets/image/background2.png"); 
+background-repeat-y: no-repeat;
+background-size: cover;
+font-size: 35px;
+position: relative;
+
+}
+
+.mag{
+	border-bottom-width: 4px;
+    border-bottom-color: #0D2158;
+    margin-left: 50px;
+    margin-top: 147px;
+    position: absolute;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.tab{
+
+list-style: none;
+display: inline-block;
+background: #000000;
+color: white;
+font-size: 20px;
+padding: 12px 12px;
+width: 20%;
+text-align: center;
+font-weight: bold;
+letter-spacing: 3px;
+
+
+}
+.trend{
+	text-align: center;
+	padding: 10px;
+	text-shadow: 3px 3px 5px grey;
+	letter-spacing: 2px;
+}
+.entertain{
+	text-align: center;
+	padding: 10px;
+	text-shadow: 3px 3px 5px grey;
+	letter-spacing: 2px;
+}
+
+.modal-title{
+	text-align: center;
+	padding: 10px;
+	text-shadow: 3px 3px 5px grey;
+	letter-spacing: 2px;
+}
+
+
+.travel{
+
+	text-align: center;
+	padding: 10px;
+	text-shadow: 3px 3px 5px grey;
+	letter-spacing: 2px;
+	
+}
+
+.food{
+	text-align: center;
+	padding: 10px;
+	text-shadow: 3px 3px 5px grey;
+	letter-spacing: 2px;
+}
+
+.tab:hover{
+  background-color:  white;
+  color: black;
+  border: 1px solid black;
+}
+
+.tabs{
+	margin:0px;
+	padding: 0px;
+	width: 100%;
+ text-align: center;
+}
+
+.tab-slide {
+	margin: 2px 0px 0px 0px;
+	width: 100%;
+	
+}
+.image_list{
+	width: 100%;
+
+	padding: 0px 60px;
+
+	
+	
+}
+
+
+	/*@media only screen and (max-width: 500px){
+		.image_list div{
+		width: 100%;
+		text-align: center;*/
+/*	}
+	} 
+	@media only screen and (max-width: 750px){
+	.image_list div{
+		width: 50%;
+		text-align: center;
+	}
+	} 
+
+	@media only screen and (max-width: 750px){
+	.image_list div{
+		width: 50%;
+		text-align: center;
+	}
+	} 
+
+	@media only screen and (min-width: 1824px){
+	.image_list div{
+		width: 25%;
+		text-align: center;
+	}
+	} */
+	
+	.img1{
+	padding:10px;
+		text-align: center;
+		height: 354px;
+	}
+.card{
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+
+}
+.img1 img{
+padding: 0px;
+		width: 100%;
+		margin: 0px;
+		height: 300px;
+		
+	}
+
+
+
+
+
+body{
+	margin: 0px;
+}
+
+
+.add_cart{
+	display:flex;
+margin: 0px;
+}
+
+.price_cart{
+	list-style: none;
+	padding: 0px;
+	
+	margin:0px;
+	display: flex;
+	width: 100%;
+
+
+}
+
+
+
+
+.price{
+	color: #3333de;
+	font-family:  arial;
+	font-size: 18px;
+	width: 50%;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 5px;
+	background: #e66060;
+}
+
+.cart{
+	padding: 15px 5px;
+	color: white;
+	font-family:  arial;
+	font-size: 17px;
+	width: 50%;
+	font-weight: bold;
+	text-align: center;
+	background: #9a9aef;
+	cursor: pointer;
+}
+
+.foot{
+	height: 240px;
+	width: 100%;
+	display: flex;
+	background: #333;
+	color:white;
+	font-weight: bold;
+	margin-top:50px;
+}
+
+.modal-footer{
+	text-align: center;
+	
+}
+.payment_footer{
+	border:none;
+}
+ .btn-default{
+
+border-radius: 20px;
+}
+.about_company{
+	width: 50%;
+
+}
+.contact{
+	
+	float: right;
+	width: 50%;
+	padding: 10px 60px;
+
+
+	
+}
+.email i,.number i,.map i ,.contact_us i{
+	padding: 10px;
+	border-radius: 50%;
+	background-color: rgba(204, 204, 204, 0.65);
+}
